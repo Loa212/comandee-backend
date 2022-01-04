@@ -14,6 +14,12 @@
     "name": {
       "type": "string"
     },
+    "content": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
     "image": {
       "allowedTypes": [
         "images",
@@ -23,21 +29,13 @@
       "type": "media",
       "multiple": false
     },
-    "content": {
-      "type": "richtext"
-    },
-    "meta_description": {
-      "type": "text"
-    },
-    "meta_title": {
-      "type": "text"
-    },
-    "price": {
-      "type": "decimal"
-    },
     "slug": {
       "type": "uid",
       "targetField": "name"
+
+    },
+    "meta_title": {
+      "type": "text"
     }
   }
 }
