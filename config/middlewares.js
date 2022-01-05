@@ -10,8 +10,8 @@ module.exports = ({ env }) => [
         useDefaults: true,
         directives: {
           "connect-src": ["'self'", "https:"],
-          "img-src": ["'self'", "data:", "blob:", `${env("CDN_BASE_URL")}`],
-          "media-src": ["'self'", "data:", "blob:", `${env("CDN_BASE_URL")}`],
+          "img-src": ["'self'", "data:", "blob:", `${env("CDN_BASE_URL")}`, `${env("AWS_BASE_URL")}`],
+          "media-src": ["'self'", "data:", "blob:", `${env("CDN_BASE_URL")}`, `${env("AWS_BASE_URL")}`],
           upgradeInsecureRequests: null,
         },
       },
