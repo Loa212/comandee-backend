@@ -10,8 +10,8 @@ module.exports = ({ env }) => [
         useDefaults: true,
         directives: {
           "connect-src": ["'self'", "https:"],
-          "img-src": ["'self'", "data:", "blob:", "sheeesh", `${env('AWS_BUCKET')}.s3.${env('AWS_REGION')}.amazonaws.com`, `${env("CDN_BASE_URL")}`],
-          "media-src": ["'self'", "data:", "blob:", `${env('AWS_BUCKET')}.s3.${env('AWS_REGION')}.amazonaws.com`, `${env("CDN_BASE_URL")}`],
+          "img-src": ["'self'", "data:", "blob:", "sheeesh", `//${env('AWS_BUCKET')}.s3.${env('AWS_REGION')}.amazonaws.com`, `${env("CDN_BASE_URL")}`],
+          "media-src": ["'self'", "data:", "blob:", `//${env('AWS_BUCKET')}.s3.${env('AWS_REGION')}.amazonaws.com`, `${env("CDN_BASE_URL")}`],
           upgradeInsecureRequests: null,
         },
       },
