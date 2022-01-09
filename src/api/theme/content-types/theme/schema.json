@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "themes",
+  "info": {
+    "singularName": "theme",
+    "pluralName": "themes",
+    "displayName": "Theme"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "primary": {
+      "type": "string"
+    },
+    "Secondary": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "light": {
+      "type": "string"
+    },
+    "accent": {
+      "type": "string"
+    },
+    "error": {
+      "type": "string"
+    },
+    "success": {
+      "type": "string"
+    }
+  }
+}

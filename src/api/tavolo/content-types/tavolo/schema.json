@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "tavolos",
+  "info": {
+    "singularName": "tavolo",
+    "pluralName": "tavolos",
+    "displayName": "features",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tavolo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.feature"
+    }
+  }
+}

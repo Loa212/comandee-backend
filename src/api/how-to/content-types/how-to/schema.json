@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "how_tos",
+  "info": {
+    "singularName": "how-to",
+    "pluralName": "how-tos",
+    "displayName": "how-to"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "howto": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.section2"
+    }
+  }
+}

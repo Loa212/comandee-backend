@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_landing_section2s",
+  "info": {
+    "displayName": "how-to",
+    "icon": "arrows-alt-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tagline": {
+      "type": "text"
+    },
+    "taglineHeader": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}

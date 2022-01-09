@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_landing_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "text"
+    },
+    "linkTo": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

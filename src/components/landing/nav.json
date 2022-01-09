@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_landing_navs",
+  "info": {
+    "displayName": "Nav",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "boolean",
+      "default": false
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

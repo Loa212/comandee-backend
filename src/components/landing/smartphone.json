@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_landing_smartphones",
+  "info": {
+    "displayName": "smartphone",
+    "icon": "phone-volume"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

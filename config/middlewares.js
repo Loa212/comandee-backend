@@ -13,8 +13,6 @@ module.exports = ({ env }) => [
           "connect-src": ["'self'", "https:"],
           "img-src": ["'self'", "data:", "blob:", `${env("AWS_BASE_URL")}`],
           "media-src": ["'self'", "data:", "blob:", `${env("AWS_BASE_URL")}`],
-          // "img-src": ["'self'", "data:", "blob:", `//${env('AWS_BUCKET')}.s3.${env('AWS_REGION')}.amazonaws.com`],
-          // "media-src": ["'self'", "data:", "blob:", `//${env('AWS_BUCKET')}.s3.${env('AWS_REGION')}.amazonaws.com`],
           upgradeInsecureRequests: null,
         },
       },

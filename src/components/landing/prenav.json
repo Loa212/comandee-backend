@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_landing_prenavs",
+  "info": {
+    "displayName": "prenav",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "text"
+    }
+  }
+}
