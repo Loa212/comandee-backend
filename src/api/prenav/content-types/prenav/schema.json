@@ -1,11 +1,10 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "prenavs",
   "info": {
     "singularName": "prenav",
     "pluralName": "prenavs",
-    "displayName": "prenav",
-    "description": ""
+    "displayName": "prenav"
   },
   "options": {
     "draftAndPublish": true
@@ -14,7 +13,7 @@
   "attributes": {
     "prenav": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "landing.prenav"
     }
   }
