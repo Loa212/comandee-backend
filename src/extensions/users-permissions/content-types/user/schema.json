@@ -63,10 +63,10 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "products": {
+    "menus": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::product.product",
+      "target": "api::menu.menu",
       "mappedBy": "users_permissions_user"
     }
   }

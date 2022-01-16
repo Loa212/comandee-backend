@@ -38,11 +38,25 @@
     "meta_title": {
       "type": "text"
     },
-    "users_permissions_user": {
+    "menu": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
+      "target": "api::menu.menu",
       "inversedBy": "products"
+    },
+    "allergeni": {
+      "type": "text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "antipasti",
+        "primi",
+        "secondi",
+        "dessert",
+        "bevande",
+        "alcolici"
+      ]
     }
   }
 }
