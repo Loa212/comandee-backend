@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "menus",
+  "collectionName": "categories",
   "info": {
-    "singularName": "menu",
-    "pluralName": "menus",
-    "displayName": "menu",
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "category",
     "description": ""
   },
   "options": {
@@ -12,24 +12,24 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "name": {
+      "type": "string"
+    },
     "slug": {
       "type": "uid",
       "targetField": "name"
     },
-    "name": {
-      "type": "string"
-    },
-    "categories": {
+    "products": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::category.category",
-      "mappedBy": "menu"
+      "target": "api::product.product",
+      "mappedBy": "category"
     },
-    "users_permissions_user": {
+    "menu": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
-      "inversedBy": "menus"
+      "target": "api::menu.menu",
+      "inversedBy": "categories"
     }
   }
 }
