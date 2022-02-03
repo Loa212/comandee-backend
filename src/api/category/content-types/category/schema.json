@@ -30,6 +30,9 @@
       "relation": "manyToOne",
       "target": "api::menu.menu",
       "inversedBy": "categories"
+    },
+    "categoryDescription": {
+      "type": "text"
     }
   }
 }

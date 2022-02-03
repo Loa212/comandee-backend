@@ -25,11 +25,14 @@
       "target": "api::category.category",
       "mappedBy": "menu"
     },
-    "users_permissions_user": {
+    "user_id": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
+      "target": "api::user-id.user-id",
       "inversedBy": "menus"
+    },
+    "menuDescription": {
+      "type": "text"
     }
   }
 }

@@ -63,11 +63,11 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "menus": {
+    "user_id": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::menu.menu",
-      "mappedBy": "users_permissions_user"
+      "relation": "oneToOne",
+      "target": "api::user-id.user-id",
+      "inversedBy": "users_permissions_user"
     }
   }
 }
